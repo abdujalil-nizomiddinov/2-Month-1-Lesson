@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  max-width: 1500px;
+  min-width: 1500px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+/* HEADER START */
+.nav .container {
+  display: flex;
+  transition: 0.4s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f9e0ae;
+  font-family: "Poppins", serif;
+  justify-content: space-between;
+}
+.nav .container:hover {
+  border-radius: 10px;
+  transform: scale(90%);
+  box-shadow: 0 0 5px 1px black;
+}
+.nav__logo img {
+  padding-top: 15px;
+}
+.nav__logo img:hover {
+  transform: scale(103%);
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+.nav__title {
+  gap: 50px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav__title-link {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav__title-link:hover {
+  color: #c24914;
+  filter: drop-shadow(0 0 30px rgb(0, 0, 0));
+}
+.nav__title-select {
+  border: none;
+  font-weight: 800;
+  padding-right: 10px;
+  background-color: transparent;
+}
+.nav__title-select:hover {
+  color: #c24914;
+  transform: scale(101%);
+  filter: drop-shadow(0 0 30px rgb(0, 0, 0));
+}
+.nav__title-button {
+  color: white;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 7px;
+  text-decoration: none;
+  border: 2px solid #c24914;
+  background-color: #c24914;
+}
+.nav__title-button:hover {
+  color: #f9e0ae;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px 1px black;
+}
+/* HEADER FINISH */
+
+/* MAIN START */
+.home .container {
+  display: flex;
+  transition: 0.4s;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Poppins", serif;
+  justify-content: space-between;
+  border-radius: 5px 44px 22px 44px;
+}
+.home__title {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.home__title h2 {
+  font-size: 40px;
+  max-width: 300px;
+}
+.home__title h2:hover {
+  transform: scale(101%);
+}
+.home__title p {
+  opacity: 0.5;
+  max-width: 420px;
+}
+.home__title p:hover {
+  opacity: 0.8;
+}
+.home__title-button {
+  color: white;
+  max-width: 162px;
+  padding: 5px 22px;
+  border-radius: 7px;
+  font-weight: bolder;
+  text-decoration: none;
+  border: 2px solid #682c0e;
+  background-color: #682c0e;
+}
+.home__title-button:hover {
+  color: #f9e0ae;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px 1px black;
+}
+.home .container img {
+  transition: 0.4s;
+  filter: blur(1px);
+  border-radius: 5px 44px 22px 44px;
+}
+.home .container img:hover {
+  filter: blur(0);
+  transform: scale(90%);
+  box-shadow: 0 0 10px 1px black;
+}
+/* -------------------------------------------- */
+.about .container {
+  display: flex;
+  transition: 0.4s;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Poppins", serif;
+  justify-content: space-between;
+  border-radius: 5px 44px 22px 44px;
+}
+.about .container img {
+  transition: 0.4s;
+  filter: blur(1px);
+  border-radius: 5px 44px 22px 44px;
+}
+.about .container img:hover {
+  filter: blur(0);
+  transform: scale(90%);
+  box-shadow: 0 0 10px 1px black;
+}
+.about__title {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.about__title h2 {
+  font-size: 40px;
+  max-width: 350px;
+}
+.about__title h2:hover {
+  transform: scale(101%);
+}
+.about__title ul li {
+  margin-left: 15px;
+}
+.about__title ul li:hover {
+  transform: rotate(1deg);
+}
+/* -------------------------------------------- */
+.start-learning .container {
+  display: flex;
+  transition: 0.4s;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Poppins", serif;
+  justify-content: space-between;
+  border-radius: 5px 44px 22px 44px;
+}
+.start-learning__title {
+  font-size: 40px;
+  max-width: 350px;
+}
+.start-learning__title:hover {
+  transform: scale(101%);
+}
+.start-learning .container img {
+  transition: 0.4s;
+  filter: blur(1px);
+  border-radius: 5px 44px 22px 44px;
+}
+.start-learning .container img:hover {
+  filter: blur(0);
+  transform: scale(90%);
+  box-shadow: 0 0 10px 1px black;
+}
+/* -------------------------------------------- */
+.subscribe .container {
+  display: flex;
+  transition: 0.5s;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Poppins", serif;
+  justify-content: space-between;
+}
+.subscribe .container:hover {
+  transform: scaleX(80%);
+  box-shadow: 0 0 10px 1px black;
+  border-radius: 10px;
+}
+.subscribe__item {
+  display: flex;
+  background-color: #f9e0ae;
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px;
+}
+.subscribe__item:hover {
+  transform: scaleX(125%);
+  box-shadow: 0 0 10px 1px black;
+  border-radius: 10px;
+}
+.subscribe input {
+  background-color: white;
+  border: none;
+  text-align: center;
+  width: 333px;
+  padding: 20px;
+  font-size: 14px;
+}
+.subscribe input:hover {
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 1px black;
+}
+.subscribe button {
+  background-color: #c24914;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  width: 333px;
+  padding: 20px;
+  font-size: 14px;
+}
+.subscribe button:hover {
+  box-shadow: 5px 5px 10px 1px black;
+  border-radius: 5px;
+}
+/* -------------------------------------------- */
+.community .container {
+  display: flex;
+  font-family: "Poppins", serif;
+  flex-direction: column;
+}
+.community .container:hover {
+  box-shadow: 0 0 10px 1px black;
+}
+.community__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  position: relative;
+  right: 180px;
+  top: 200px;
+}
+.community__title h2 {
+  max-width: 500px;
+  font-size: 50px;
+}
+.community__title h2:hover{
+  transform: scale(101%);
+}
+.community__title p {
+  opacity: 0.5;
+  font-size: 20px;
+}
+.community__title p:hover {
+  opacity: .8;
+}
+.community__title button {
+  padding: 15px 40px;
+  background-color: #fc8621;
+  border: 2px solid #fc8621;
+  border-radius: 7px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.community__title button:hover {
+  border: 2px solid black;
+  color: #f9e0ae;
+  box-shadow: 5px 5px 10px 1px black;
+}
+.community__img {
+  position: relative;
+  width: 700px;
+  left: 500px;
+}
+.community__img:hover{
+  transform: rotate(4deg);
+}
+.community__teacher_1 {
+  position: relative;
+  width: 100px;
+  left: 730px;
+  bottom: 800px;
+  border-radius: 100%;
+}
+.community__teacher_1:hover {
+  transform: scale(103%);
+  box-shadow: 0 0 10px 1px peru;
+}
+.community__teacher_2 {
+  position: relative;
+  width: 100px;
+  left: 950px;
+  bottom: 620px;
+  border-radius: 100%;
+}
+.community__teacher_2:hover {
+  transform: scale(103%);
+  box-shadow: 0 0 10px 1px peru;
+}
+.community__teacher_3 {
+  position: relative;
+  width: 100px;
+  bottom: 380px;
+  right: 40px;
+  border-radius: 100%;
+}
+.community__teacher_3:hover {
+  transform: scale(103%);
+  box-shadow: 0 0 10px 1px peru;
+}
+.community__teacher_4 {
+  position: relative;
+  width: 100px;
+  bottom: 220px;
+  left: 150px;
+  border-radius: 100%;
+}
+.community__teacher_4:hover {
+  transform: scale(103%);
+  box-shadow: 0 0 10px 1px peru;
+}
+/* MAIN FINISH */
+
+/* FOOTER START */
+.site__info .container {
+  background-color: #f9e0ae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: "Poppins", serif;
+  border-radius: 10px;
+}
+.site__info .container p {
+  opacity: 0.5;
+}
+.site__info-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px 15px 50px 15px;
+}
+.site__info-items:hover{
+  transform: scale(103%);
+  box-shadow: 0 0 10px 1px black;
+}
+.site__info-items ul li:hover{
+  transform: rotate(1deg);
+}
+.site__info-items h3 {
+  font-size: 22px;
+}
+.site__info-logo {
+  padding-top: 20px;
+}
+.site__info-follow_us {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.follow_us__logos {
+  display: flex;
+  gap: 20px;
+}
+.site__info-useful_links ul {
+  opacity: 0.5;
+  margin-left: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.site__info-contacts ul {
+  opacity: 0.5;
+  margin-left: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+/* FOOTER FINISH */
